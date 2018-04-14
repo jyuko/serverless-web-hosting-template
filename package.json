@@ -1,0 +1,29 @@
+{
+  "name": "serverless-web-hosting-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build" : "webpack -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jyuko/serverless-web-hosting-template.git"
+  },
+  "author": "jyuko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jyuko/serverless-web-hosting-template/issues"
+  },
+  "homepage": "https://github.com/jyuko/serverless-web-hosting-template#readme",
+  "dependencies": {
+    "vue": "^2.5.16"
+  },
+  "devDependencies": {
+    "vue-loader": "^14.2.2",
+    "vue-template-compiler": "^2.5.16",
+    "webpack": "^4.5.0",
+    "webpack-cli": "^2.0.14"
+  }
+}
