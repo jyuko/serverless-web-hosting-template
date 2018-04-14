@@ -10,6 +10,10 @@ module.exports = {
           test: /\.vue$/,
             loader: 'vue-loader',
         },
+        {
+          test: /\.css$/,
+          use: [ 'style-loader', 'css-loader' ]
+        }
     ]},
     resolve: {
       extensions: ['.js', '.vue'],
@@ -17,4 +21,5 @@ module.exports = {
         vue$: 'vue/dist/vue.esm.js',
       },
     },
+    performance: { hints: false }
 }

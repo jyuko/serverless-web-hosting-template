@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build" : "webpack -p"
+    "build": "webpack -p"
   },
   "repository": {
     "type": "git",
@@ -18,9 +18,13 @@
   },
   "homepage": "https://github.com/jyuko/serverless-web-hosting-template#readme",
   "dependencies": {
-    "vue": "^2.5.16"
+    "element-ui": "^2.3.4",
+    "vue": "^2.5.16",
+    "vue-router": "^3.0.1"
   },
   "devDependencies": {
+    "css-loader": "^0.28.11",
+    "style-loader": "^0.20.3",
     "vue-loader": "^14.2.2",
     "vue-template-compiler": "^2.5.16",
     "webpack": "^4.5.0",
