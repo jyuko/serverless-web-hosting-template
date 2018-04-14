@@ -1,0 +1,1 @@
+# serverless-web-hosting-template
